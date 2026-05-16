@@ -8,11 +8,94 @@ tags:
   - Food
   - Manufacturing
   - Commodities
-description: 'A global agribusiness and food company connecting farmers to consumers by sourcing, processing, and supplying oilseed and grain products. Operates across grain origination, oilseed processing, refined and specialty oils, and milling.'
+  - Oilseeds
+  - Grain
+  - Biofuels
+description: >-
+  Bunge Global SA is a multinational agribusiness and food company connecting
+  farmers to consumers by sourcing, processing, and supplying oilseed and grain
+  products. Operates across grain origination, oilseed processing, refined and
+  specialty oils, milling, sugarcane and biofuel production, and fertilizer
+  sales. In 2025 Bunge completed its merger with Viterra to create a major
+  global agricultural trading and processing platform.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: bunge:bunge-customer-portal
+    name: Bunge Customer Portal
+    tags:
+      - Customer Portal
+      - Orders
+      - Supply Chain
+    humanURL: https://www.bunge.com/
+    properties:
+      - url: https://www.bunge.com/
+        type: Documentation
+    description: >-
+      Bunge operates customer-facing portals for industrial and food-service
+      customers to manage orders, contracts, shipment tracking, and account
+      information for oilseed, grain, and oil product purchases. Access is
+      typically negotiated through commercial relationships.
+
+  - aid: bunge:bunge-farmer-portal
+    name: Bunge Farmer Portal
+    tags:
+      - Farmer
+      - Grain Origination
+      - Contracts
+    humanURL: https://www.bunge.com/
+    properties:
+      - url: https://www.bunge.com/
+        type: Documentation
+    description: >-
+      Bunge operates digital tools for grain origination relationships with
+      farmers, enabling contract management, pricing, scale-ticket access,
+      and settlement information for delivered grain. Access is restricted
+      to growers under a delivery contract.
 common:
   - type: Website
     url: https://www.bunge.com/
+  - type: InvestorRelations
+    url: https://investors.bunge.com/
+  - type: Sustainability
+    url: https://www.bunge.com/sustainability
+  - type: Features
+    data:
+      - name: Grain Origination
+        description: Sourcing oilseeds and grains from major growing regions worldwide.
+      - name: Oilseed Processing
+        description: Crushing oilseeds to produce meal for livestock and oil for food and biofuels.
+      - name: Refined and Specialty Oils
+        description: Manufacturing bottled oils, margarines, and food-service oil products.
+      - name: Milling
+        description: Wheat, corn, and rice milling for food and industrial customers.
+      - name: Sugar and Bioenergy
+        description: Sugarcane processing for sugar and ethanol biofuel production.
+      - name: Fertilizer
+        description: Manufacturing and distributing fertilizer to South American farmers.
+  - type: UseCases
+    data:
+      - name: Food Manufacturing Supply
+        description: Supplying food manufacturers with vegetable oils, flour, and ingredients.
+      - name: Animal Feed Supply
+        description: Providing oilseed meal to livestock and poultry feed producers.
+      - name: Biofuel Feedstock
+        description: Supplying oilseed-derived feedstock to biodiesel and renewable diesel producers.
+      - name: Grain Trading
+        description: Trading grains globally between origin and destination markets.
+      - name: Consumer Cooking Oils
+        description: Bottled oils, margarines, and shortenings sold via retail brands.
+  - type: Integrations
+    data:
+      - name: Viterra
+        description: 2025 merger combining Bunge and Viterra global grain trading operations.
+      - name: IOI Loders Croklaan
+        description: Subsidiary specialty oils and fats manufacturer for food industry.
+      - name: Central Soya
+        description: Subsidiary supporting oilseed processing operations.
+      - name: Walter Rau
+        description: Specialty fats and margarine subsidiary.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
