@@ -54,6 +54,8 @@ apis:
       and settlement information for delivered grain. Access is restricted
       to growers under a delivery contract.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/bunge
   - type: Website
     url: https://www.bunge.com/
   - type: InvestorRelations
