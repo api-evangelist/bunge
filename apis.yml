@@ -37,6 +37,10 @@ apis:
     name: Bunge Customer Portal
     tags:
       - Customer Portal
+      - Order
+      - Supply Chain
+    tags_raw:
+      - Customer Portal
       - Orders
       - Supply Chain
     humanURL: https://www.bunge.com/
